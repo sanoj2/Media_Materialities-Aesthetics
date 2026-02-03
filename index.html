@@ -1,32 +1,144 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt">
 <head>
   <meta charset="utf-8">
-  <title>Video</title>
+  <title>Materialidades dos Media & Estética</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style>
+    /* Reset */
+    * {
+      box-sizing: border-box;
+    }
+
     html, body {
       margin: 0;
       padding: 0;
-      height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #111;
+      background: #fff;
+      line-height: 1.6;
+    }
+
+    /* Video section */
+    .video-section {
+      height: 100vh;
       background: black;
     }
 
-    video {
+    .video-section video {
       width: 100%;
       height: 100%;
-      object-fit: contain;
+      object-fit: contain; /* change to cover if desired */
+      display: block;
+    }
+
+    /* Text section */
+    .content {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 80px 20px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 22px;
+      margin-top: 80px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+
+    .references {
+      font-size: 14px;
+      margin-top: 60px;
     }
   </style>
 </head>
 
 <body>
-  <video
-  autoplay
-  muted
-  playsinline>
-  <source src="video.mp4" type="video/mp4">
-</video>
+
+  <!-- Video -->
+  <section class="video-section">
+    <video autoplay muted playsinline>
+      <source src="video.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <!-- Text content -->
+  <section class="content">
+
+    <h2>Projecto de Investigação</h2>
+
+    <p><strong>MATERIALIDADES DOS MEDIA &amp; ESTÉTICA</strong></p>
+
+    <p>
+      As materialidades da comunicação são, nas palavras de Friedrich
+      Kittler, talvez o maior enigma moderno [1]. Investigar as
+      materialidades dos media e a sua relação com a estética apresenta-
+      se, pois, como proposta inequivocamente prioritária. Trata-se de fazer um
+      mapeamento das materialidades dos media e do seu impacto sobre
+      a perceção, especialmente naquilo que diz respeito ao gosto e ao
+      seu juízo, ou seja, ao plano estético.
+    </p>
+
+    <p>
+      Este projeto parte do que consideramos ser o acontecimento
+      fundamental do nosso tempo, nomeadamente a expansão quase
+      ilimitada da técnica a todos os domínios da vida e da experiência.
+      De facto, o lugar entre a natureza e o domínio humano foi ficando
+      cada vez mais preenchido pelos avanços da técnica e por uma
+      tecnologia que a todo o momento reconfigura o seu discurso
+      sobretudo nas novidades e nas diferenciações energéticas.
+    </p>
+
+    <p>
+      Ultrapassando a linguagem e o próprio discurso, o objeto técnico
+      conheceu uma evolução sem precedentes: de objeto mecânico para
+      a sua materialidade comunicativa e operativa, de instrumento a
+      máquina e finalmente ao dispositivo enquanto sistema geral.
+    </p>
+
+    <p>
+      O projeto centra-se então na dimensão estética do impacto
+      dos media, que juntamente com a dimensão ética constituem os dois
+      grandes pilares para entender a experiência contemporânea.
+    </p>
+
+    <p>
+      Para abordar estas questões, o projeto encara a história não como
+      resultado, mas como um complexo de problemas, a debater num
+      colóquio internacional e a aprofundar com a edição de um livro.
+    </p>
+
+    <p>
+      Estamos convictos de que não pode haver novas formas de arte sem
+      uma nova compreensão do mundo.
+    </p>
+
+    <div class="references">
+      <p>[1] Kittler, F. (2013) A relação sinal-ruído.</p>
+      <p>[2] Siegert, B. (2015) Cultural Techniques.</p>
+      <p>[3] Agamben, G. (2010) Nudities.</p>
+      <p>[4] Bohm, D. (1998) On Creativity.</p>
+    </div>
+
+    <h3>Project Team</h3>
+
+    <p>
+      <!-- Replace this with names -->
+      To be announced.
+    </p>
+
+  </section>
+
 </body>
 </html>
